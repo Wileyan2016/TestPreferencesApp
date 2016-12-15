@@ -15,9 +15,9 @@ public class EarthQuakeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_earth_quake);
-
+//Trying to test on how preferences work.
         SharedPreferences mySharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
-        String minmax = mySharedPreferences.getString("list_prefkey", "dollar");
+        String minmax = mySharedPreferences.getString("list_prefkey", "dollar");//get the preference and get the default value?
         Toast.makeText(this, minmax, Toast.LENGTH_SHORT).show();
     }
 

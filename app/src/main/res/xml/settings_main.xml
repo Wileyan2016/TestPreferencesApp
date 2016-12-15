@@ -9,7 +9,7 @@
         android:title="@string/settings_min_magnitude_label"
         />
     <ListPreference
-        android:defaultValue="dollar"
+        android:defaultValue="what"
         android:entries="@array/order_up"
         android:entryValues="@array/my_values"
         android:key="list_prefkey"

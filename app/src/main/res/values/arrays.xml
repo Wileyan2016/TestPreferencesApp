@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="order_up">
-        <item>"Whats up honey brown</item>
-        <item>MA Dollar Sign E</item>
+        <item>what preference is this 1</item>
+        <item>What preference is this 2</item>
     </string-array>
 
     <string-array name="my_values">
-        <item>honey</item>
-        <item>dollar</item>
+        <item>preference 1</item>
+        <item>preference number 2</item>
     </string-array>
 </resources>
